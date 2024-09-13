@@ -1,4 +1,5 @@
 Libre Computer AML-S905X-CC eMMC Flashing Guide
+
 This repository contains instructions and a shell script to flash the eMMC module on the Libre Computer AML-S905X-CC (Le Potato) using a Linux machine and pyamlboot. The process eliminates the need for a MicroSD card by allowing you to use the eMMC module as a virtual flash drive.
 
 Requirements
@@ -44,4 +45,5 @@ Troubleshooting
 AMD Machines: There is a known issue with AMD computers timing out on USB transfers. It is recommended to use Intel-based machines or SBCs for this process.
 Auxiliary Power: If your computer doesn't supply enough power, attach a MicroUSB cable to power the Le Potato board.
 License
+
 This repository is licensed under the MIT License.
